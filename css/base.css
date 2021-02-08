@@ -1,0 +1,120 @@
+body {
+  font-family: Tahoma, Helvetica, sans-serif;
+  background-image: url("../images/bg.jpg");
+}
+
+h3 {
+  color: gray;
+  font-size: x-large;
+  padding: 10px 10px 0 20px;
+  background-color: white;
+}
+
+p {
+  color: gray;
+  background-color: white;
+  padding: 0 10px 0 20px;
+}
+
+main {
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 5px 0 5px;
+}
+
+.container {
+  width: 80vw;
+}
+
+.grid {
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headline {
+  margin: 0 5px 0 5px;
+  background-color: crimson;
+  letter-spacing: 1px;
+  border-bottom: 2px solid lightgray;
+}
+
+.row2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.row3 {
+  position: relative;
+  height: 400px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.row4 {
+  text-align: center;
+  color: white;
+}
+
+.row5 {
+  text-align: left;
+  height: auto;
+}
+
+.row7 {
+  height: 300px;
+  background-color: white;
+}
+
+.row8 {
+  background-color: gray;
+  height: 300px;
+}
+
+.topdude {
+  position: relative;
+}
+
+.guysname {
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.guy2 {
+  transform: translatey(-150px);
+}
+
+.leftdudes {
+  display: flex;
+  width: 700px;
+}
+
+.rightdude {
+  position: relative;
+  margin-left: 0;
+  height: 550px;
+}
+
+.blank {
+  width: 0;
+}
+
+.wide {
+  position: relative;
+  width: 882px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.skt {
+  transform: rotateZ(90deg);
+  margin-bottom: 200px;
+}
