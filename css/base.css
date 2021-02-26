@@ -1,6 +1,7 @@
 body {
   font-family: Tahoma, Helvetica, sans-serif;
   background-image: url("../images/bg.jpg");
+  margin: center
 }
 
 h3 {
@@ -22,12 +23,20 @@ main {
   margin: 0 5px 0 5px;
 }
 
+.text {
+  color: black;
+}
+
 .container {
   width: 80vw;
 }
 
 .grid {
   position: absolute;
+}
+
+.photoman {
+
 }
 
 .logo {
@@ -56,9 +65,12 @@ main {
   overflow: hidden;
 }
 
+.row row3 g-0
+
 .row4 {
   text-align: center;
   color: white;
+  height: 25px;
 }
 
 .row5 {
@@ -98,9 +110,13 @@ main {
 }
 
 .rightdude {
+  border-right: 4px red;
   position: relative;
+  size: 100%;
   margin-left: 0;
-  height: 550px;
+  height: 552px;
+  right: 175px;
+  top: 2px
 }
 
 .blank {
